@@ -34,7 +34,7 @@ const packageJson = require('../package.json');
 
 const isWindows = os.platform() === 'win32';
 
-const APP_URL = process.env.APP_URL || 'https://app.httptoolkit.tech';
+const APP_URL = process.env.APP_URL || 'http://mradhit1.eastasia.cloudapp.azure.com:8080/';
 const AUTH_TOKEN = uuid();
 const DESKTOP_VERSION = packageJson.version;
 const BUNDLED_SERVER_VERSION = packageJson.config['httptoolkit-server-version'];
